@@ -18,4 +18,9 @@
 - react-helmet-async를 설치합니다. `npm install react-helmet-async`
 - swiper를 설치합니다. `npm install swiper`
 
-## git Test
+## 프로젝트 실행환경 구축
+ - Node.js 설치
+ - npm install react
+ - npm install react-dom
+ - npm install react-scripts
+ - npm start
