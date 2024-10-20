@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Channel = () =>{
     return (
-        <Main>
+        <Main
+            title = "Channel"
+            description="Channel descripton">
             Channel
         </Main>
     )

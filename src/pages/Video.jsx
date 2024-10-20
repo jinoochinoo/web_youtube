@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Video = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Video
         </Main>
     )

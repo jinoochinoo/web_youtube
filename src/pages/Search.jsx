@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Search = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Search
         </Main>
     )

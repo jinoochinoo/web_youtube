@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Gsap = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Gsap
         </Main>
     )

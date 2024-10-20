@@ -3,8 +3,10 @@ import Main from '../components/section/Main'
 
 const Developer = () =>{
     return (
-        <Main>
-            Developer
+        <Main
+            title = ""
+            description="">
+            Developer jwsong
         </Main>
     )
 }

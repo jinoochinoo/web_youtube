@@ -4,6 +4,9 @@ import { headerMenus, searchKeyword } from '../../data/header';
 import { Link, useLocation }from 'react-router-dom';
 
 const Menu = () => {
+
+    console.log('Menu reload')
+
     const location = useLocation();
 
     return (

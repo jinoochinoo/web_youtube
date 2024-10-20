@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Website = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Website
         </Main>
     )

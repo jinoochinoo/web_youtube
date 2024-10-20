@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Today = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Today
         </Main>
     )

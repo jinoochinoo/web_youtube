@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Port = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Port
         </Main>
     )

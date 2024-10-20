@@ -3,7 +3,9 @@ import Main from '../components/section/Main'
 
 const Webd = () =>{
     return (
-        <Main>
+        <Main
+        title = ""
+        description="">
             Webd
         </Main>
     )
