@@ -2,7 +2,7 @@ import React from 'react'
 
 const Developer = () => {
     return (
-        <Div>Developer</Div>
+        <div>Developer</div>
     )
 }
 
