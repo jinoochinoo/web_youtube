@@ -7,14 +7,17 @@ const VideoSearch = ({ videos }) => {
             {videos.map((video, index) => (
                 <div className="video" key={index}>
                     <div className="video__thumb play__icon">
-                        <Link 
+                        {/* <Link 
                             to={`/video/${video.id.videoId}`} 
                             style={{ backgroundImage: `url(${video.snippet.thumbnails.high.url})` }}>
-                        </Link>
+                        </Link> */}
+                        <Link to={`https://www.youtube.com/embed/${video.id.videoId}`} target="_blank"
+                        style={{ backgroundImage: `url(${video.snippet.thumbnails.high.url})` }}></Link>
                     </div>
                     <div className="video__info">
                         <div className="title">
-                            <Link to={`/video/${video.id.videoId}`}>{video.snippet.title}</Link>
+                            {/* <Link to={`/video/${video.id.videoId}`}>{video.snippet.title}</Link> */}
+                            <Link to={`https://www.youtube.com/embed/${video.id.videoId}`} target="_blank"></Link>
                         </div>
                         <div className="info">
                             <span className="author">
