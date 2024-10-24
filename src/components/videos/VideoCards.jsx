@@ -11,7 +11,6 @@ const VideoCards = ({ videos }) => {
                             <img src={video.img} alt={videos.title} />
                         </Link>
                     </div>
-                    
                 </div>
             ))}
         </>
