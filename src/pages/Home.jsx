@@ -4,6 +4,8 @@ import Chart from '../components/contents/Chart'
 import Developer from '../components/contents/Developer'
 import VideoSlider from '../components/videos/VideoSlider'
 
+import { guestReivew } from '../data/guestReview'
+
 import { webdText } from '../data/webd'
 import { websiteText } from '../data/website'
 import { gsapText } from '../data/gsap'
@@ -18,7 +20,7 @@ const Home = () => {
             
             <Chart />
             <Developer />
-            <VideoSlider videos={webdText} title="😮 이렇게 엄청난 리뷰가!?" id="webd" />
+            <VideoSlider videos={guestReivew} title="😮 이렇게 엄청난 리뷰가!?" id="webd" />
             {/* <VideoSlider videos={websiteText} title="😛 웹표준 사이트 만들기 기초 다지기" id="website" /> */}
             {/* <VideoSlider videos={gsapText} title="🤓 GSAP 패럴랙스 효과를 하고 싶다면!" id="gsap" /> */}
             {/* <VideoSlider videos={portfolioText} title="🤗 포트폴리오 만드는 방법을 공유합니다." id="portfolio" /> */}
