@@ -4,6 +4,7 @@ import Chart from '../components/contents/Chart'
 import Developer from '../components/contents/Developer'
 import VideoSlider from '../components/videos/VideoSlider'
 
+import GuestLogo from '../components/contents/GuestLogo'
 import { guestReivew } from '../data/guestReview'
 
 import { webdText } from '../data/webd'
@@ -19,7 +20,7 @@ const Home = () => {
             description="웹스토리보이 유튜버 사이트에 오신 것을 환영합니다.">
             
             <Chart />
-            <Developer />
+            <GuestLogo />
             <VideoSlider videos={guestReivew} title="😮 이렇게 엄청난 리뷰가!?" id="webd" />
             {/* <VideoSlider videos={websiteText} title="😛 웹표준 사이트 만들기 기초 다지기" id="website" /> */}
             {/* <VideoSlider videos={gsapText} title="🤓 GSAP 패럴랙스 효과를 하고 싶다면!" id="gsap" /> */}
