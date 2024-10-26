@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Main from '../components/section/Main'
+import SearchForm from '../components/section/Search'
 
 import VideoSearch from '../components/videos/VideoSearch'
 
@@ -27,6 +28,10 @@ const Search = () =>{
             description="유튜브 검색 결과 페이지입니다.">
             
             <section id='searchPage'>
+
+                <div>
+                    <SearchForm />
+                </div>
                 <div className="video__inner search">
                     <VideoSearch videos={videos} />
                 </div>

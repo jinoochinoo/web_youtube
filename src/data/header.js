@@ -29,83 +29,93 @@ export const headerMenus = [
         src: "/cardTemplate"
     },
     {
-        title: "추천 영상",
+        title: "무제1",
         icon: <CiMoneyBill />,
-        src: "/today"
+        src: "/not"
     },
     {
-        title: "추천 개발자",
+        title: "무제2",
         icon: <CiCoins1 />,
-        src: "/developer"
+        src: "/not"
+    },
+    {
+        title: "무제3",
+        icon: <CiMoneyBill />,
+        src: "/not"
+    },
+    {
+        title: "권지용 무제",
+        icon: <CiCoins1 />,
+        src: "/not"
     },
 ];
 
 export const searchKeyword = [
     {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
+        title: "대머리도적",
+        src: "/search/대머리도적"
     },
     {
-        title: "HTML",
-        src: "/search/html"
+        title: "김데데",
+        src: "/search/김데데"
     },
     {
-        title: "CSS",
-        src: "/search/css"
+        title: "바람의나라 클래식",
+        src: "/search/바람의나라 클래식"
     },
     {
-        title: "JavaScript",
-        src: "/search/javascript"
+        title: "모아재 바람",
+        src: "/search/모아재 바람"
     },
     {
-        title: "React.js",
-        src: "/search/react.js"
+        title: "메랜",
+        src: "/search/메랜"
     },
     {
-        title: "Vue.js",
-        src: "/search/vue.js"
+        title: "30대 탈모",
+        src: "/search/30대 탈모"
     },
     {
-        title: "Next.js",
-        src: "/search/next.js"
+        title: "개발자 수명",
+        src: "/search/개발자 수명"
     },
     {
-        title: "Node.js",
-        src: "/search/node.js"
+        title: "외머생",
+        src: "/search/외머생"
     },
     {
-        title: "SQL",
-        src: "/search/sql"
+        title: "송정 서핑",
+        src: "/search/송정 서핑"
     },
     {
-        title: "portfolio",
-        src: "/search/React Portfolio"
+        title: "서프홀릭",
+        src: "/search/서프홀릭"
     },
     {
-        title: "music",
-        src: "/search/NewJeans"
+        title: "투니버스 노래모음",
+        src: "/search/투니버스 노래모음"
     }
 ];
 
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/",
         icon: <AiFillGithub />
     },
     {
         title: "youtube",
-        url: "https://www.youtube.com/webstoryboy",
+        url: "https://www.youtube.com/",
         icon: <AiFillYoutube />
     },
     {
         title: "codepen",
-        url: "https://codepen.io/webstoryboy",
+        url: "https://codepen.io/",
         icon: <AiOutlineCodepen />
     },
     {
         title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
+        url: "https://www.instagram.com/",
         icon: <AiOutlineInstagram />
     },
 ]

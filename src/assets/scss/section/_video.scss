@@ -2,6 +2,11 @@
     min-height: 100vh;
     
     .video {
+
+        display: inline-block;
+        width: 500px; 
+        margin: 20px;
+
         margin-bottom: 40px;
         border-radius: 10px;
         background-color: #111;
