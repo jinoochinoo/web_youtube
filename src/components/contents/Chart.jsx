@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import {
     ComposedChart,
     Line,
@@ -11,7 +11,7 @@ import {
     Legend,
     Scatter
   } from "recharts";
-import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis } from 'recharts';
 const data = [
     {
       name: "Page A",
@@ -106,10 +106,9 @@ const Chart = () => {
 
     return (
         <section>
-            <h2>😮 맛간 머리 벗겨지는 속도 측정</h2>
+            <h2>😮 맛간 머리 벗겨지는 속도</h2>
 
 
-        {/* <ResponsiveContainer width="100%" height="700px"> */}
             <ComposedChart
                 width={1000}
                 height={500}
@@ -134,14 +133,13 @@ const Chart = () => {
             </ComposedChart>
 
             <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={radarData} style={styleObj.div}>
-            <PolarGrid />
-            <PolarAngleAxis dataKey="subject" />
-            <PolarRadiusAxis angle={30} domain={[0, 150]} />
-            <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
-            <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
-            <Legend />
+              <PolarGrid />
+              <PolarAngleAxis dataKey="subject" />
+              <PolarRadiusAxis angle={30} domain={[0, 150]} />
+              <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+              <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
+              <Legend />
             </RadarChart>
-        {/* </ResponsiveContainer> */}
     </section>
     )
 }

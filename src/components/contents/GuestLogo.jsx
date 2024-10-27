@@ -11,12 +11,12 @@ const GuestLogo = () => {
                 {guestLogo.map((guestLogo, key) => (
                     <div className="developer" key={key}>
                         <div className="developer__img play__icon">
-                            <Link to={`/channel/${guestLogo.channelId}`}>
+                            <Link to={`/not`}>
                                 <img src={guestLogo.img} alt={guestLogo.name} />
                             </Link>
                         </div>
                         <div className="developer__info">
-                            <Link to={`/channel/${guestLogo.channelId}`}>
+                            <Link to={`/not`}>
                                 {guestLogo.name}
                             </Link>
                         </div>

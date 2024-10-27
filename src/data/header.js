@@ -40,14 +40,19 @@ export const headerMenus = [
     },
     {
         title: "무제3",
-        icon: <CiMoneyBill />,
+        icon: <CiCoffeeCup />,
         src: "/not"
     },
     {
         title: "권지용 무제",
-        icon: <CiCoins1 />,
+        icon: <CiDumbbell />,
         src: "/not"
     },
+    {
+        title: "유전무죄",
+        icon: <CiFries />,
+        src: "/not"
+    }
 ];
 
 export const searchKeyword = [

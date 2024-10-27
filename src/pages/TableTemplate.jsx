@@ -1,9 +1,5 @@
 // import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
-
-import { Link } from 'react-router-dom'
-
-
 import * as React from "react";
 
 import { CompactTable } from "@table-library/react-table-library/compact";
